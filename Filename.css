@@ -1,0 +1,250 @@
+ /*style the Nav bar*/
+            
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  } 
+
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0
+}
+
+.container-fluid {
+  background-color: #000000
+}
+
+#heading,
+#heading0 {
+  color: #ffffff
+}
+
+.card {
+  background-color: #E8EAF6;
+  padding-top: 0px;
+  cursor: pointer
+}
+
+.card-name:hover {
+  color: #424242
+}
+
+#card1 {
+  border-top: 4px solid #3D5AFE !important;
+  transition: 0.5s
+}
+
+#card1:hover {
+  box-shadow: 0 0 2px 2px #3D5AFE;
+  transition: 0.5s
+}
+
+#card2 {
+  border-top: 4px solid #00E676 !important;
+  transition: 0.5s
+}
+
+#card2:hover {
+  box-shadow: 0 0 2px 2px #00E676;
+  transition: 0.5s
+}
+
+#card3 {
+  border-top: 4px solid #AB47BC !important;
+  transition: 0.5s
+}
+
+#card3:hover {
+  box-shadow: 0 0 2px 2px #AB47BC;
+  transition: 0.5s
+}
+
+#card4 {
+  border-top: 4px solid #FBC02D !important;
+  transition: 0.5s
+}
+
+#card4:hover {
+  box-shadow: 0 0 2px 2px #FBC02D;
+  transition: 0.5s
+}
+
+.hex-icon {
+  background-color: black;
+  width: 30%
+}
+
+.fa {
+  color: white;
+  background-color: black;
+  width: 40px;
+  transition: 0.2s
+}
+
+.fa:hover {
+  opacity: 1;
+  transition: 0.2s
+}
+
+.fa-facebook {
+  background-color: #4267B2;
+  opacity: 0.8
+}
+
+.fa-twitter {
+  background-color: #1DA1F2;
+  opacity: 0.8
+}
+
+.fa-linkedin {
+  background-color: #0077B5;
+  opacity: 0.8
+}
+
+.fa-pinterest {
+  background-color: #E60023;
+  opacity: 0.8
+}
+
+svg {
+  height: 200px;
+  width: 240px
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Web Design</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="C:\Users\User\Downloads\bootstrap-4.1.3-dist.zip">
+        <script src="C:\Users\User\Downloads\bootstrap-4.1.3-dist.zip\css"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="filename.css">
+        <script scr="C:\Users\User\Downloads\bootstrap-4.1.3-dist.zip\css"></script>
+        <style>
+           
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+</style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#User">User</a>
+    <div class="topnav-left">
+      <a href="#Admin">Admin</a>
+    </div>
+  </div>
+  
+  <style>
+  
+      body {
+          background-image: url(https://i.ytimg.com/vi/V9JaHsPQ1rU/maxresdefault.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100%, 100%;
+      }
+  </style>
+
+ 
+</style>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+
+
+        <div class="container-fluid px-5 py-5">
+          <div class="row justify-content-center">
+              <div class="col-12 text-center mb-5">
+                  <h1 id="heading" class="mb-0">Our Creative Team</h1> <small id="heading0">Creative Thinking For Business</small>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-xl-3 col-md-6 col-12 mb-4">
+                  <div class="card text-center rounded-0 border-0" id="card1">
+                      <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                              <defs>
+                                  <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
+                                      <image xlink:href="https://i.imgur.com/RCwPA3O.jpg" x="-25" width="150" height="100" />
+                                  </pattern>
+                              </defs>
+                              <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)" />
+                          </svg> 
+                        </div>
+                      <h2 class="card-name">Alissa Solomon</h2>
+                      <p class="position">AlissaS9@gmail.com</p>
+                      <p class="position">Cellphone No: 071 897 8926</p>
+                      <p class="postion">Landline No: 021 493 8415</p>
+                      <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                          <div class="col-3 px-0 py-1">
+                        
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Personal Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <p class="position">39 Adderely Street, Cape Town 8001</p>
+      <p class="position">Ezra Solomon</p>
+      <p class="position">My Husband</p>
+      <p class="position">074 832 4671 / Esolomon117@gmail.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Button trigger modal-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete User</button>
+
+<!--Modal: modalConfirmDelete-->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+    
+    <!--Content-->
+    <div class="modal-content text-center">
+      <!--Header-->
+      <div class="modal-header d-flex justify-content-center">
+        <p class="heading">Confirm Delete</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+
+      <a href="" class="btn  btn-outline-danger">Yes</a>
+        <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+
+
+        <i class="fas fa-times fa-4x animated rotateIn"></i>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer flex-center">
+        <a href="" class="btn  btn-outline-danger">Close</a>
+       
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: modalConfirmDelete-->
+
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              
+
+              <div class="col-xl-3 col-md-6 col-12 mb-4">
+                  <div class="card text-center rounded-0 border-0" id="card2">
+                      <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                              <defs>
+                                  <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
+                                      <image xlink:href="https://i.imgur.com/m9llh5o.jpg" x="-25" width="150" height="100" />
+                                  </pattern>
+                              </defs>
+                              <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)" />
+                          </svg> </div>
+                      <h2 class="card-name">Tom Harry</h2>
+                      <p class="position">TomHarry1@gmail.com</p>
+                      <p class="position">Cellphone No: 083 459 2134</p>
+                      <p class="position">Landline No: 021 023 5114</p>
+                      <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                          <div class="col-3 px-0 py-1">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+    View Details
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal">Personal Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-body">
+          <p class="position">49 Royal Road, Maitland 7405</p>
+          <p class="position">Esther Harry</p>
+          <p class="position">My Wife</p>
+          <p class="position">Cell no: 067 453 9768 / Esther1960@gmail.com</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete User</button>
+
+<!--Modal: modalConfirmDelete-->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+    <!--Content-->
+    <div class="modal-content text-center">
+      <!--Header-->
+      <div class="modal-header d-flex justify-content-center">
+        <p class="heading">Confirm Delete</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+        <a href="" class="btn  btn-outline-danger">Yes</a>
+        <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+
+        <i class="fas fa-times fa-4x animated rotateIn"></i>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer flex-center">
+        <a href="" class="btn  btn-outline-danger">Close</a>
+        
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: modalConfirmDelete-->
+
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-12 mb-4">
+                  <div class="card text-center rounded-0 border-0" id="card3">
+                      <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                              <defs>
+                                  <pattern id="img3" patternUnits="userSpaceOnUse" width="100" height="100">
+                                      <image xlink:href="https://i.imgur.com/Mcd6HIg.jpg" x="-25" width="150" height="100" />
+                                  </pattern>
+                              </defs>
+                              <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img3)" />
+                          </svg> </div>
+                      <h2 class="card-name">Rosey Clark</h2>
+                      <p class="position">RoseyClark16@gmail.com</p>
+                      <p class="position">Cellphone No: 073 097 5761</p>
+                      <p class="position">Landline No: 021 097 8649</p>
+                      <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                          <div class="col-3 px-0 py-1">
+
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Example">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Example" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Example">Personal Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="position">43 Penguin Street, Brackenfell 7580</p>
+        <p class="position">Reagan Clark</p>
+        <p class="position">My Husband</p>
+        <p class="position">Cell no: 063 894 8651 / Reagan26@gmail.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save Changess</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Button trigger modal-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete User</button>
+
+<!--Modal: modalConfirmDelete-->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+    <!--Content-->
+    <div class="modal-content text-center">
+      <!--Header-->
+      <div class="modal-header d-flex justify-content-center">
+        <p class="heading">Confirm Delete</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+        <a href="" class="btn  btn-outline-danger">Yes</a>
+        <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+
+
+        <i class="fas fa-times fa-4x animated rotateIn"></i>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer flex-center">
+        <a href="" class="btn  btn-outline-danger">Close</a>
+        
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: modalConfirmDelete-->
+
+                           
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-12 mb-4">
+                  <div class="card text-center rounded-0 border-0" id="card4">
+                      <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                              <defs>
+                                  <pattern id="img4" patternUnits="userSpaceOnUse" width="100" height="100">
+                                      <image xlink:href="https://i.imgur.com/V3ICjlm.jpg" x="-25" width="150" height="100" />
+                                  </pattern>
+                              </defs>
+                              <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img4)" />
+                          </svg> </div>
+                      <h2 class="card-name">John Hary</h2>
+                      <p class="position">JohnHary18@gmail.com</p>
+                      <p class="position">Cellphone No: 084 767 0433</p>
+                      <p class="position">Landline No: 021 649 7645</p>
+                      <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                          <div class="col-3 px-0 py-1">
+
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Label">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Label" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Label">Personal Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="position">65 Galvandale Street, Kuilsriver 7850</p>
+        <p class="position">Amy Hary</p>
+        <p class="position">My wife</p>
+        <p class="position">Cell no: 073 456 3982 / Amy1999@gmail.com </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>  
+           <!-- Button trigger modal-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete User</button>
+
+<!--Modal: modalConfirmDelete-->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  
+  <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+    <!--Content-->
+    <div class="modal-content text-center"></div>
+      <!--Header-->
+      <div class="modal-header d-flex justify-content-center">
+        <p class="heading">Confirm Delete</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+        <a href="" class="btn  btn-outline-danger">Yes</a>
+        <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+
+        <i class="fas fa-times fa-4x animated rotateIn"></i>
+
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer flex-center">
+        <a href="" class="btn  btn-outline-danger">Close</a>
+        
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: modalConfirmDelete-->   
+
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>      
+
+      <div class="container">
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          Insert New Cards
+        </button>
+
+
+
+
+
+
+     
+      
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              
+            
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Insert New Users</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <div class="container">
+                
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </div>
+              
+              
+                 
+
+
+
+              
+              <style>
+              
+                  body {
+                      background-image: url(https://i.ytimg.com/vi/V9JaHsPQ1rU/maxresdefault.jpg);
+                      background-repeat: no-repeat;
+                      background-attachment: fixed;
+                      background-size: 100%, 100%;
+                  }
+
+              </style>
+
+              
+
+              
+
+              <!-- Modal body -->
+              <div class="modal-body">
+
+                <div class="container-fluid px-5 py-5">
+                  <div class="row justify-content-center">
+                      <div class="col-12 text-center mb-5">
+                          <h1 id="heading" class="mb-0">Our Creative Team</h1> <small id="heading0">Creative Thinking For Business</small>
+
+
+
+
+
+                      </div>
+                  </div>
+                  <div class="row justify-content-center">
+                      <div class="col-xl-3 col-md-6 col-12 mb-4">
+                          <div class="card text-center rounded-0 border-0" id="card1">
+                              <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                      <defs>
+                                          <pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
+                                              <image xlink:href="https://i.imgur.com/RCwPA3O.jpg" x="-25" width="150" height="100" />
+                                          </pattern>
+                                      </defs>
+                                      <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img1)" />
+                                  </svg> 
+                                </div>
+                              <h2 class="card-name">First Name & Surname</h2>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Email Address</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Cellphone No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="postion">Landline No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                                  <div class="col-3 px-0 py-1">
+                                
+                                <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+          View Details
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Modal">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+              <p class="position">Home Address</p>
+              <p class="position">Next of Kin Name</p>
+              <p class="position">Next of Kin Relationship</p>
+              <p class="position">Next of Kin Cellphone/Email</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save Changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Button trigger modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete</button>
+        
+        <!--Modal: modalConfirmDelete-->
+        <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+            <!--Content-->
+            <div class="modal-content text-center">
+              <!--Header-->
+              <div class="modal-header d-flex justify-content-center">
+                <p class="heading">Confirm Delete</p>
+                <a href="" class="btn  btn-outline-danger">Yes</a>
+                <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+              </div>
+        
+              <!--Body-->
+              <div class="modal-body"
+               
+              
+              <i class="fas fa-times fa-4x animated rotateIn"></i>
+        
+              </div>
+        
+              <!--Footer-->
+              <div class="modal-footer flex-center">
+                <a href="" class="btn  btn-outline-danger">Close</a>
+                
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+        <!--Modal: modalConfirmDelete-->
+        
+        
+           
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+        
+        
+                      <div class="col-xl-3 col-md-6 col-12 mb-4">
+                          <div class="card text-center rounded-0 border-0" id="card2">
+                              <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                      <defs>
+                                          <pattern id="img2" patternUnits="userSpaceOnUse" width="100" height="100">
+                                              <image xlink:href="https://i.imgur.com/m9llh5o.jpg" x="-25" width="150" height="100" />
+                                          </pattern>
+                                      </defs>
+                                      <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img2)" />
+                                  </svg> </div>
+                              <h2 class="card-name">First Name & Surname</h2>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Email Address</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Cellphone No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Landline No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                                  <div class="col-3 px-0 py-1">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+            View Details
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save Changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Button trigger modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete</button>
+        
+        <!--Modal: modalConfirmDelete-->
+        <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+            <!--Content-->
+            <div class="modal-content text-center">
+              <!--Header-->
+              <div class="modal-header d-flex justify-content-center">
+                <p class="heading">Modal Confirm Delete</p>
+              </div>
+        
+              <!--Body-->
+              <div class="modal-body">
+        
+                <i class="fas fa-times fa-4x animated rotateIn"></i>
+        
+              </div>
+        
+              <!--Footer-->
+              <div class="modal-footer flex-center">
+                <a href="" class="btn  btn-outline-danger">Yes</a>
+                <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+        <!--Modal: modalConfirmDelete-->
+        
+        
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-3 col-md-6 col-12 mb-4">
+                          <div class="card text-center rounded-0 border-0" id="card3">
+                              <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                      <defs>
+                                          <pattern id="img3" patternUnits="userSpaceOnUse" width="100" height="100">
+                                              <image xlink:href="https://i.imgur.com/Mcd6HIg.jpg" x="-25" width="150" height="100" />
+                                          </pattern>
+                                      </defs>
+                                      <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img3)" />
+                                  </svg> </div>
+                              <h2 class="card-name">First Name & Surname</h2>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Email Address</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Cellphone No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Landline No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                                  <div class="col-3 px-0 py-1">
+        
+                                     <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+          View Details
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="position">Home Address</p>
+                <p class="position">Next of Kin Name</p>
+                <p class="position">Next of Kin Relationship</p>
+                <p class="position">Next of Kin Cellphone/Email</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save Changess</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Button trigger modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete</button>
+        
+        <!--Modal: modalConfirmDelete-->
+        <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+            <!--Content-->
+            <div class="modal-content text-center">
+              <!--Header-->
+              <div class="modal-header d-flex justify-content-center">
+                <p class="heading">Modal Confirm Delete</p>
+              </div>
+        
+              <!--Body-->
+              <div class="modal-body">
+        
+                <i class="fas fa-times fa-4x animated rotateIn"></i>
+        
+              </div>
+        
+              <!--Footer-->
+              <div class="modal-footer flex-center">
+                <a href="" class="btn  btn-outline-danger">Yes</a>
+                <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+        <!--Modal: modalConfirmDelete-->
+                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-3 col-md-6 col-12 mb-4">
+                          <div class="card text-center rounded-0 border-0" id="card4">
+                              <div class="hex-img mt-5 mb-4"> <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                      <defs>
+                                          <pattern id="img4" patternUnits="userSpaceOnUse" width="100" height="100">
+                                              <image xlink:href="https://i.imgur.com/V3ICjlm.jpg" x="-25" width="150" height="100" />
+                                          </pattern>
+                                      </defs>
+                                      <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img4)" />
+                                  </svg> </div>
+                              <h2 class="card-name">First name & Surname</h2>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Email Address</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Cellphone No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <p class="position">Landline No</p>
+                              <Input type- "input" name- "input" style-"border-color: black"><button>Confirm</button>
+                              <div class="row mx-5 mb-5 mt-3 justify-content-center">
+                                  <div class="col-3 px-0 py-1">
+        
+                                  <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+          View Details
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Personal Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="position">Home Address</p>
+                <p class="position">Next of Kin Name</p>
+                <p class="position">Next of Kin Relationship</p>
+                <p class="position">Next of Kin Cellphone/Email</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save Changes</button>
+              </div>
+            </div>
+          </div>
+        </div>  
+                   <!-- Button trigger modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Delete</button>
+        
+        <!--Modal: modalConfirmDelete-->
+        <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+            <!--Content-->
+            <div class="modal-content text-center"></div>
+              <!--Header-->
+              <div class="modal-header d-flex justify-content-center">
+                <p class="heading">Modal Confirm Delete</p>
+              </div>
+        
+              <!--Body-->
+              <div class="modal-body">
+        
+                <i class="fas fa-times fa-4x animated rotateIn"></i>
+        
+              </div>
+        
+              <!--Footer-->
+              <div class="modal-footer flex-center">
+                <a href="" class="btn  btn-outline-danger">Yes</a>
+                <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+        <!--Modal: modalConfirmDelete-->   
+        
+        
+        
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>      
+
+              </div>
+              
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      </body>
+</html> 
+      
